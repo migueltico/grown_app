@@ -1,0 +1,212 @@
+[
+  {
+    "numero": 1,
+    "descripcion": "Me gusta trabajar en automóviles",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 2,
+    "descripcion": "Me gusta hacer rompecabezas",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 3,
+    "descripcion": "Soy bueno trabajando de forma independiente",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 4,
+    "descripcion": "Me gusta trabajar en equipo",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 5,
+    "descripcion": "Soy una persona ambiciosa, me fijo metas para mí mismo",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 6,
+    "descripcion": "Me gusta organizar cosas, archivos, escritorios/oficinas",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 7,
+    "descripcion": "Me gusta construir cosas",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 8,
+    "descripcion": "Me gusta leer sobre arte y música",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 9,
+    "descripcion": "Me gusta tener instrucciones claras para seguir",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 10,
+    "descripcion": "Me gusta intentar influir o persuadir a las personas",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 11,
+    "descripcion": "Me gusta hacer experimentos",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 12,
+    "descripcion": "Me gusta enseñar o capacitar a las personas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 13,
+    "descripcion": "Me gusta ayudar a las personas a resolver sus problemas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 14,
+    "descripcion": "Me gusta cuidar de los animales",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 15,
+    "descripcion": "No me importaría trabajar 8 horas al día en una oficina",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 16,
+    "descripcion": "Me gusta vender cosas",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 17,
+    "descripcion": "Disfruto de la escritura creativa",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 18,
+    "descripcion": "Disfruto de la ciencia",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 19,
+    "descripcion": "Estoy dispuesto a asumir nuevas responsabilidades",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 20,
+    "descripcion": "Me interesa curar a las personas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 21,
+    "descripcion": "Disfruto tratando de descubrir cómo funcionan las cosas",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 22,
+    "descripcion": "Me gusta juntar cosas o ensamblar cosas",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 23,
+    "descripcion": "Soy una persona creativa",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 24,
+    "descripcion": "Presto atención a los detalles",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 25,
+    "descripcion": "Me gusta hacer archivo o escribir a máquina",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 26,
+    "descripcion": "Me gusta analizar cosas (problemas/situaciones)",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 27,
+    "descripcion": "Me gusta tocar instrumentos o cantar",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 28,
+    "descripcion": "Disfruto aprendiendo sobre otras culturas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 29,
+    "descripcion": "Me gustaría comenzar mi propio negocio",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 30,
+    "descripcion": "Me gusta cocinar",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 31,
+    "descripcion": "Me gusta actuar en obras de teatro",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 32,
+    "descripcion": "Soy una persona práctica",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 33,
+    "descripcion": "Me gusta trabajar con numeros o gráficos",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 34,
+    "descripcion": "Me gusta participar en discusiones sobre temas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 35,
+    "descripcion": "Soy bueno llevando registros de mi trabajo",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 36,
+    "descripcion": "Me gusta liderar",
+    "clasificacion": "E"
+  },
+  {
+    "numero": 37,
+    "descripcion": "Me gusta trabajar al aire libre",
+    "clasificacion": "R"
+  },
+  {
+    "numero": 38,
+    "descripcion": "Me gustaría trabajar en una oficina",
+    "clasificacion": "C"
+  },
+  {
+    "numero": 39,
+    "descripcion": "Soy bueno en matemáticas",
+    "clasificacion": "I"
+  },
+  {
+    "numero": 40,
+    "descripcion": "Me gusta ayudar a las personas",
+    "clasificacion": "S"
+  },
+  {
+    "numero": 41,
+    "descripcion": "Me gusta dibujar",
+    "clasificacion": "A"
+  },
+  {
+    "numero": 42,
+    "descripcion": "Me gusta dar discursos",
+    "clasificacion": "E"
+  }
+]

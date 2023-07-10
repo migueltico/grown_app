@@ -1,0 +1,26 @@
+[
+  {
+    "clasificacion": "R",
+    "definition": "Realista"
+  },
+  {
+    "clasificacion": "I",
+    "definition": "Investigador(a)"
+  },
+  {
+    "clasificacion": "A",
+    "definition": "Artístico(a)"
+  },
+  {
+    "clasificacion": "S",
+    "definition": "Social"
+  },
+  {
+    "clasificacion": "E",
+    "definition": "Emprendedor(a)"
+  },
+  {
+    "clasificacion": "C",
+    "definition": "Convencional"
+  }
+]
