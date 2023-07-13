@@ -116,36 +116,40 @@
   flex-direction: column;
   width: 40%;
   height: auto;
-  & > h1 {
-    width: 100%;
-    font-size: 3rem;
-    font-weight: 500;
-    color: var(--color-texto-accento);
-    text-align: left;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 3rem;
-  }
-  & > form {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    gap: 3rem;
-    padding: 0 8rem 0 2rem;
-  }
-  & > p {
-    width: 100%;
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--color-cuarto);
-    text-align: left;
-    margin-left: 2rem;
-    line-height: 1.4;
-    & > a {
-      color: var(--color-texto-accento);
-      margin-left: 0.5rem;
-    }
-  }
+}
+
+.pageSignUp > article:nth-child(2) > h1 {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--color-texto-accento);
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.pageSignUp > article:nth-child(2) > form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 3rem;
+  padding: 0 8rem 0 2rem;
+}
+
+.pageSignUp > article:nth-child(2) > p {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-cuarto);
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.4;
+}
+
+.pageSignUp > article:nth-child(2) > p > a {
+  color: var(--color-texto-accento);
+  margin-left: 0.5rem;
 }
 
 .pageRegistro {
@@ -162,38 +166,43 @@
   flex-direction: column;
   width: 40%;
   height: auto;
-  & > h1 {
-    width: 100%;
-    font-size: 5rem;
-    font-weight: 500;
-    color: var(--color-texto-accento);
-    text-align: left;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 3rem;
-  }
-  & > form {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    gap: 1.5rem;
-    padding: 0 8rem 0 2rem;
-  }
-  & > p {
-    width: 100%;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--color-texto-secundario);
-    text-align: left;
-    margin-left: 2rem;
-    line-height: 1.4;
-    margin-bottom: 2rem;
-    & > a {
-      color: var(--color-primario);
-      margin-left: 0.5rem;
-    }
-  }
 }
+
+.pageRegistro > article:nth-child(1) > h1 {
+  width: 100%;
+  font-size: 5rem;
+  font-weight: 500;
+  color: var(--color-texto-accento);
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.pageRegistro > article:nth-child(1) > form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 1.5rem;
+  padding: 0 8rem 0 2rem;
+}
+
+.pageRegistro > article:nth-child(1) > p {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-texto-secundario);
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.pageRegistro > article:nth-child(1) > p > a {
+  color: var(--color-primario);
+  margin-left: 0.5rem;
+}
+
 .pageRegistro > article:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -219,26 +228,28 @@
   margin-bottom: 2rem;
   position: relative;
   z-index: 10;
-  &::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 0.2rem;
-    background-color: var(--color-texto-secundario);
-    z-index: -1;
-  }
-  & > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    font-weight: 600;
-    background-color: var(--color-texto-terciario);
-    color: var(--color-texto-accento);
-    width: 3.5rem;
-    height: 3.5rem;
-  }
+}
+
+.stepper::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--color-texto-secundario);
+  z-index: -1;
+}
+
+.stepper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: var(--color-texto-terciario);
+  color: var(--color-texto-accento);
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .stepper .current {
@@ -252,26 +263,28 @@
   align-items: center;
   padding: 0 10rem;
   margin-bottom: 5rem;
-  & > h1 {
-    width: 100%;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: var(--color-texto);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  & > p {
-    width: 100%;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: var(--color-texto-secundario);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.4;
-    margin-bottom: 2rem;
-  }
+}
+
+.pageDescubre > h1 {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.pageDescubre > p {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
 }
 
 .testContainer {
@@ -280,26 +293,28 @@
   align-items: center;
   width: 100%;
   margin-top: 2rem;
-  & > h2 {
-    width: 100%;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: var(--color-texto);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  & > p {
-    width: 100%;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: var(--color-texto-secundario);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.4;
-    margin-bottom: 3rem;
-  }
+}
+
+.testContainer > h2 {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.testContainer > p {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.4;
+  margin-bottom: 3rem;
 }
 
 .testResultContainer {
@@ -308,37 +323,39 @@
   align-items: center;
   width: 100%;
   margin-top: 2rem;
-  & > h1 {
-    width: 100%;
-    font-size: 2.6rem;
-    font-weight: 600;
-    color: var(--color-texto);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-  & > h2 {
-    width: 100%;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: var(--color-texto);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
+}
 
-  & > p {
-    width: 100%;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: var(--color-texto-secundario);
-    text-align: center;
-    margin-left: 2rem;
-    line-height: 1.4;
-    margin-bottom: 3rem;
-  }
+.testResultContainer > h1 {
+  width: 100%;
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.testResultContainer > h2 {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.testResultContainer > p {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.4;
+  margin-bottom: 3rem;
 }
 
 .clasificacionContainer {
@@ -351,39 +368,43 @@
   margin-bottom: 2rem;
   height: auto;
   gap: 1rem;
-  & > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
-    box-shadow: var(--sombra-primaria);
-    min-height: 250px;
-    padding: 20px;
-    flex: 1 0;
-    & > h3 {
-      width: 100%;
-      font-size: 1.6rem;
-      font-weight: 600;
-      color: var(--color-primario);
-      text-align: center;
-      margin-left: 2rem;
-      line-height: 1.2;
-      text-align: left;
-      margin-bottom: 1rem;
-    }
-    & > p {
-      width: 100%;
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: var(--color-texto-secundario);
-      text-align: center;
-      line-height: 1.4;
-      text-align: left;
-    }
-  }
 }
+
+.clasificacionContainer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  box-shadow: var(--sombra-primaria);
+  min-height: 250px;
+  padding: 20px;
+  flex: 1 0;
+}
+
+.clasificacionContainer > div > h3 {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-primario);
+  text-align: center;
+  margin-left: 2rem;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.clasificacionContainer > div > p {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  line-height: 1.4;
+  text-align: left;
+}
+
 .carrerasContainer {
   display: flex;
   flex-direction: row;
@@ -392,19 +413,22 @@
   width: 100%;
   margin-top: 0rem;
   gap: 1rem;
-  & > div {
-    flex: 1 0;
-  }
-  & a {
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--color-texto-secundario);
-    text-align: left;
-    line-height: 1.6;
-    word-wrap: break-word;
-  }
 }
+
+.carrerasContainer > div {
+  flex: 1 0;
+}
+
+.carrerasContainer a {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  text-align: left;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
 .pageCarrera {
   background-color: var(--color-fondo);
   display: flex;
@@ -412,43 +436,47 @@
   align-items: flex-start;
   padding: 0 10rem;
   gap: 2rem;
-  & > article:nth-child(1) {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    & > p {
-      width: 100%;
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: var(--color-texto-secundario);
-      text-align: center;
-      line-height: 1.4;
-      text-align: left;
-    }
-  }
-  & > article:nth-child(2) {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    & > p {
-      width: 100%;
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: var(--color-texto-secundario);
-      text-align: center;
-      line-height: 1.4;
-      text-align: left;
-      margin-top: 5rem;
-    }
-  }
+}
+
+.pageCarrera > article:nth-child(1) {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pageCarrera > article:nth-child(1) > p {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.pageCarrera > article:nth-child(2) {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pageCarrera > article:nth-child(2) > p {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 5rem;
 }
 
 .nubePalabras {
@@ -470,6 +498,7 @@
   border-radius: 15px;
   color: var(--color-texto-accento);
 }
+
 .rangoSalarios {
   display: flex;
   flex-direction: row;
@@ -477,63 +506,69 @@
   width: 100%;
   padding: 1rem 0;
   position: relative;
-  & div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: var(--color-texto-secundario);
-    text-align: center;
-    line-height: 1.4;
-    gap: 1.5rem;
-    text-align: left;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: 17px;
-    width: 68%;
-    left: 16%;
-    height: 1px;
-    background-color: var(--color-texto-secundario);
-  }
 }
+
+.rangoSalarios div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  text-align: center;
+  line-height: 1.4;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.rangoSalarios::before {
+  content: "";
+  position: absolute;
+  bottom: 17px;
+  width: 68%;
+  left: 16%;
+  height: 1px;
+  background-color: var(--color-texto-secundario);
+}
+
 .comentarios {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 80%;
   padding: 0 10rem;
-  & > label {
-	font-size: 1.1rem;
-	font-weight: 400;
-	color: var(--color-texto-secundario);
-	text-align: left;
-	line-height: 1.4;
-	margin-bottom: 1rem;
-  }
 }
 
-.universidadesImg{
-	width: 100%;
-	background-color: #a31e32;
-	min-height: 91vh;
-	& img{
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	};
+.comentarios > label {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  text-align: left;
+  line-height: 1.4;
+  margin-bottom: 1rem;
 }
-.asesoriasImg{
-	width: 100%;
-	min-height: 91vh;
-	& img{
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	};
+
+.universidadesImg {
+  width: 100%;
+  background-color: #a31e32;
+  min-height: 91vh;
+}
+
+.universidadesImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.asesoriasImg {
+  width: 100%;
+  min-height: 91vh;
+}
+
+.asesoriasImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
