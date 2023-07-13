@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import Link from 'next/link'
-
+import '@/app/globals.css'
+import '@/app/app.css'
 const Registro = () => {
 	return (
 		<>

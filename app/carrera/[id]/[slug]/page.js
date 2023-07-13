@@ -3,6 +3,8 @@ import Nav from '@/app/components/Nav'
 import carreras from '@/app/data/carreras.json'
 import { BsFillTriangleFill as Flecha } from 'react-icons/bs'
 import Link from 'next/link'
+import '@/app/globals.css'
+import '@/app/app.css'
 const Carrera = ({ params }) => {
 	const { id, slug: carrera } = params
 	const wordWithAccent = decodeURIComponent(carrera)

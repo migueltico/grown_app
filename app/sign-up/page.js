@@ -1,6 +1,7 @@
 import Nav from '@/app/components/Nav'
 import Link from 'next/link'
-
+import '@/app/globals.css'
+import '@/app/app.css'
 const SignUp = () => {
 	return (
 		<>

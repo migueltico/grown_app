@@ -2,7 +2,8 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Link from 'next/link'
 import Stepper from '../components/Stepper'
-
+import '@/app/globals.css'
+import '@/app/app.css'
 const Descubre = () => {
 	return (
 		<>
