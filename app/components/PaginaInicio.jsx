@@ -1,5 +1,4 @@
-import '@/app/globals.css'
-import '@/app/app.css'
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Nav from './Nav'

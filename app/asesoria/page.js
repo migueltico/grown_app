@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import Nav from '../components/Nav'
-import '@/app/globals.css'
-import '@/app/app.css'
+import Link from 'next/link'
+import Stepper from '../components/Stepper'
 import { IoChevronBack } from 'react-icons/io5'
 
 const Universidades = () => {

@@ -92,7 +92,6 @@ function Test() {
 						<br />
             Tu perfil es:{' '}
 						{lettersDefinitions.map((letterDefinition, index) => {
-							console.log(lettersDefinitions.length)
 
 							return (
 								<span key={letterDefinition.clasificacion + index * 10}>
@@ -134,15 +133,19 @@ function Test() {
 								<div key={index * 11}>
 									{carrerasByLetter.map((carrera, index) => {
 										return (
-											<div className="card" key={index}>
-												<Link
-													href={
-														'/carrera/' + carrera.id + '/' + carrera.carrera
-													}
-												>
-													{carrera.carrera}
-												</Link>
-											</div>
+											<>
+												<h3></h3>
+												<div className="card" key={index}>
+													<Link
+														href={
+															'/carrera/' + carrera.id + '/' + carrera.carrera
+														}
+													>
+														{carrera.carrera}
+													</Link>
+												</div>
+
+											</>
 										)
 									})}
 								</div>

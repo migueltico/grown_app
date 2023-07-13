@@ -3,8 +3,6 @@ import Nav from '@/app/components/Nav'
 import carreras from '@/app/data/carreras.json'
 import { BsFillTriangleFill as Flecha } from 'react-icons/bs'
 import Link from 'next/link'
-import '@/app/globals.css'
-import '@/app/app.css'
 const Carrera = ({ params }) => {
 	const { id, slug: carrera } = params
 	const wordWithAccent = decodeURIComponent(carrera)
@@ -23,11 +21,11 @@ const Carrera = ({ params }) => {
 			<Nav logoUrl="/images/logo2.png" contrast={false} />
 			<section className="pageCarrera">
 				<article>
-					<h1>
+					<h1 className='ocultar'>
             Analisis de mercado laboral:{' '}
 						<span className="color-purple">{wordWithAccent}</span>
 					</h1>
-					<img src={'/images/aml.png'} alt={data.imagen} height="650px" />
+					<img className='ocultar' src={'/images/aml.png'} alt={data.imagen} height="650px" />
 
 					<Link href="/universidades" className="btn btn-primary btn-sm bg-purple">
             Quieres saber cuales universidades imparten esta carrera?
@@ -39,6 +37,11 @@ const Carrera = ({ params }) => {
 				</article>
 
 				<article>
+					<h1 className='mostrar'>
+            Analisis de mercado laboral:{' '}
+						<span className="color-purple">{wordWithAccent}</span>
+					</h1>
+					<img className='mostrar' src={'/images/aml.png'} alt={data.imagen} height="650px" />
 					<p>
             Se encontraron un total de <strong>{data.ofertas} ofertas </strong>
             de trabajo relacionadas a tu carrera universitaria de interes en la
