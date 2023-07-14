@@ -68,11 +68,13 @@ body {
   flex-wrap: wrap;
 }
 .btn-primary {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: center;
   color: var(--color-texto-accento);
   background-color: var(--color-primario);
-  text-align: left;
   &:hover {
     color: var(--color-texto-accento);
     background-color: var(--color-secundario);
@@ -181,7 +183,7 @@ label {
   background-color: transparent;
   font-size: 3rem;
   &:hover {
-	background-color: var(--color-primario);
-	text-decoration: none;
+    background-color: var(--color-primario);
+    text-decoration: none;
   }
 }

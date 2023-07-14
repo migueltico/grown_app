@@ -32,20 +32,20 @@ const Carrera = ({ params }) => {
 					</Link>
 
 					<Link href="/asesoria" className="btn btn-primary btn-sm bg-purple">
-            Buscas asistencia personalizada para elegir tu carrera?
+            Buscás asistencia personalizada para elegir tu carrera?
 					</Link>
 				</article>
 
 				<article>
 					<h1 className='mostrar'>
-            Analisis de mercado laboral:{' '}
+            Analisis de mercado laboral:
 						<span className="color-purple">{wordWithAccent}</span>
 					</h1>
 					<img className='mostrar' src={'/images/aml.png'} alt={data.imagen} height="650px" />
 					<p>
             Se encontraron un total de <strong>{data.ofertas} ofertas </strong>
-            de trabajo relacionadas a tu carrera universitaria de interes en la
-            ultima semana
+            de trabajo relacionadas a tu carrera universitaria de interés en la
+            última semana
 					</p>
 					<p>
             Generalmente los puestos de trabajo relacionados a esta carrera

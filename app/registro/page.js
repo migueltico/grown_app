@@ -11,7 +11,7 @@ const Registro = () => {
 					<p>
             ¿Ya tienes una cuenta?
 						<Link href="/sign-up" passHref>
-              Inicia Sesion
+              Inicia Sesión
 						</Link>
 					</p>
 					<form>
@@ -25,7 +25,7 @@ const Registro = () => {
 						</div>
 						<div className="form-group">
 							<label className="labelBlack">
-                Ingresa tu numero de telefono
+                Ingresa tu número de teléfono
 							</label>
 							<input type="tel" />
 						</div>
@@ -37,7 +37,7 @@ const Registro = () => {
 						</div>
 						<div className="form-group">
 							<label className="labelBlack">
-                Cual es tu objectivo en esta aplicacion?
+                Cuál es tu objetivo en esta aplicación?
 							</label>
 							<textarea type="text" />
 						</div>

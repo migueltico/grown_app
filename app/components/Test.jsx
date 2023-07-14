@@ -42,13 +42,19 @@ function Test() {
 
 		//find in score remainingLetters that it is equal to score of topTwoLetters
 
-		const extraMaxLetters = []
+		const extraMaxLetters2 = []
 		topTwoLetters.forEach((topLetter) => {
 			remainingLetters.forEach((remainingLetter) => {
 				if (score[topLetter] == score[remainingLetter])
-					extraMaxLetters.push(remainingLetter)
+					extraMaxLetters2.push(remainingLetter)
 			})
 		})
+		//remove duplicates from extraMaxLetters using set
+		const setExtraMaxLetters = new Set(extraMaxLetters2)
+		//convert set to array
+		const extraMaxLetters = [...setExtraMaxLetters]
+
+
 		//add extraMaxLetters to topTwoLetters
 		const topTwoLettersWithExtra = topTwoLetters.concat(extraMaxLetters)
 
@@ -120,9 +126,9 @@ function Test() {
 						})}
 					</div>
 					<p>
-            A continuación las areas de alta demanda laboral relacionadas a tu
-            personalidad vocacional. Dale click a tu carrera de interes para
-            conocer mas informacion al respecto.
+            A continuación las áreas de alta demanda laboral relacionadas a tu
+            personalidad vocacional. Dale click a tu carrera de interés para
+            conocer más información al respecto.
 					</p>
 					<div className="carrerasContainer">
 						{selectedLetters.map((letters, index) => {

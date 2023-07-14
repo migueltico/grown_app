@@ -8,7 +8,7 @@ const SignUp = () => {
 			<section className="pageSignUp">
 				<article></article>
 				<article>
-					<h1>Inicia Sesion</h1>
+					<h1>Hola!<br/> Inicia sesión</h1>
 					<form>
 						<div className="form-group">
 							<label className="labelWhite">Correo</label>
@@ -19,13 +19,13 @@ const SignUp = () => {
 							<input type="password" />
 						</div>
 						<Link href="/test" className="btn btn-login">
-              Iniciar Sesion
+              Iniciar Sesiȯn
 						</Link>
 					</form>
 					<p>
             ¿No tienes cuenta?
 						<Link href="/registro" passHref>
-              Registrate
+              Regístrate
 						</Link>
 					</p>
 				</article>
